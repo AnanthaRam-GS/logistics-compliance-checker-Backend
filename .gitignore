@@ -1,0 +1,16 @@
+node_modules/
+.env
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# tests/coverage/temp
+coverage/
+tmp/
+
+# big artifacts
+src/ai/train/data/*
+!src/ai/train/data/samples/*
+
+src/ai/infer/model/
